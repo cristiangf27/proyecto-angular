@@ -1,0 +1,11 @@
+@import '~@angular/material/theming';
+
+@mixin navtabs-component-theme($proyecto) {
+
+  $primary: map-get($proyecto, primary);
+  $accent: map-get($proyecto, accent);
+
+   .navtabs-container {
+    background-color: mat-color($proyecto-primary, 500);
+  }
+}
